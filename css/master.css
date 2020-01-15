@@ -5,7 +5,8 @@ body {
   /*background-color: #d9d9d9;*/
 }
 .container{
-  position: relative;
+  min-height: 100%;
+  margin-bottom: -50px
 }
 .header{
   content: "";
@@ -228,12 +229,13 @@ img {
   margin-left: 200%;
   width: 400%;
 }
+.push{
+  height: 50px
+}
 .footer-container {
-  position: absolute;
   background-color: #333;
-  margin-top: 10%;
   width: 100%;
-  height: auto;
+  height: 50px;
   color: white;
 }
 .footer-containerR {
